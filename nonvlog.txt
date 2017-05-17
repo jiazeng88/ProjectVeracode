@@ -1,0 +1,58 @@
+# specify URL with -u
+## output of command "python urlTaskMgr.py -u https://veracode.com":
+Starting from accessing URL [https://veracode.com], find a total of 50 valid URLs or until none is left to find.
+
+		Invalid URL [tel://1-877-837-2203], accessing failed with [No connection adapters were found for 'tel://1-877-837-2203'].
+		Invalid URL [http://cloud.typography.com/7267672/805964/css/fonts.css], accessing failed with [403 Client Error: Forbidden for url: http://cloud.typography.com/7267672/805964/css/fonts.css].
+
+Printing all valid URLs of up to 50 URLs
+	1 http://www.veracode.com/
+	2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
+	3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
+	4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
+	5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
+	6 https://info.veracode.com/find-a-partner.html
+	7 http://www.veracode.com/solutions/by-company/midsize-enterprise
+	8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
+	9 http://www.veracode.com/services/program-management
+	10 http://www.veracode.com/about/careers
+	11 http://www.veracode.com/security
+	12 https://info.veracode.com/request-quote.html
+	13 http://www.veracode.com/products/binary-static-analysis-sast
+	14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
+	15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
+	16 http://www.veracode.com/about/leadership/management
+	17 http://www.veracode.com/solutions/security-professionals
+	18 http://www.veracode.com/resources/faqs
+	19 http://www.veracode.com/solutions/by-company/independent-software-vendor
+	20 http://www.veracode.com/about/partners
+	21 https://info.veracode.com/apply-to-become-a-partner.html
+	22 http://www.veracode.com/products/developer-training
+	23 http://www.veracode.com/solutions/executives
+	24 https://www.ca.com/us/company/acquisitions/veracode.html
+	25 https://www.facebook.com/VeracodeInc
+	26 http://www.veracode.com/resources/webinars
+	27 http://www.veracode.com/products/software-composition-analysis
+	28 http://www.veracode.com/services/penetration-testing
+	29 http://www.veracode.com/about/certifications
+	30 https://www.veracode.com/resources/case-studies
+	31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
+	32 http://www.veracode.com/solutions
+	33 https://www.linkedin.com/company/veracode
+	34 http://www.veracode.com/resources
+	35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
+	36 http://www.veracode.com/node/23116
+	37 http://www.veracode.com/file/8961
+	38 https://info.veracode.com/state-of-software-security-report.html
+	39 http://www.veracode.com/site-map
+	40 http://www.veracode.com/products/runtime-protection-rasp
+	41 http://www.veracode.com/products/web-application-scanning
+	42 http://www.veracode.com/security/secure-development-lifecycle
+	43 http://www.veracode.com/file/8976
+	44 https://www.veracode.com/about
+	45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+	46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
+	47 http://www.veracode.com/resources/videos
+	48 http://www.veracode.com/about
+	49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
+	50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css

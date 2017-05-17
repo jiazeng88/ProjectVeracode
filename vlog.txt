@@ -1,0 +1,349 @@
+## use -v <nonzero> to run verbose mode
+## output of command "python urlTaskMgr.py -u https://veracode.com -v 1":
+
+Starting from accessing URL [https://veracode.com], find a total of 50 valid URLs or until none is left to find.
+
+		The url can be furthur formatted to http://www.veracode.com/
+		Added new URL: #1 http://www.veracode.com/
+
+Under URL http://www.veracode.com/ 188 links (including duplicate links) found 
+	Taking out duplidate href links left with 120: 
+		href #1 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
+		href #2 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i
+		href #3 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
+		href #4 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
+		href #5 https://info.veracode.com/find-a-partner.html
+		href #6 javascript:void(0)
+		href #7 /solutions/by-company/midsize-enterprise
+		href #8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
+		href #9 /node/23076
+		href #10 /services/program-management
+		href #11 /about/careers
+		href #12 /security
+		href #13 https://info.veracode.com/request-quote.html
+		href #14 /products/binary-static-analysis-sast
+		href #15 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
+		href #16 //www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
+		href #17 /about/leadership
+		href #18 /solutions/security-professionals
+		href #19 /resources/faqs
+		href #20 /solutions/by-company/independent-software-vendor
+		href #21 /about/partners
+		href #22 https://info.veracode.com/apply-to-become-a-partner.html
+		href #23 /products/developer-training
+		href #24 /solutions/executives
+		href #25 https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html
+		href #26 https://www.facebook.com/VeracodeInc
+		href #27 /resources/webinars
+		href #28 /products/software-composition-analysis
+		href #29 /services/penetration-testing
+		href #30 //www.veracode.com/about/certifications
+		href #31 https://www.veracode.com/resources/case-studies
+		href #32 tel://1-877-837-2203
+		href #33 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
+		href #34 /solutions
+		href #35 https://www.linkedin.com/company/veracode
+		href #36 /resources
+		href #37 /sites/all/themes/veracode/css/ie8.css
+		href #38 /node/23116
+		href #39 //www.veracode.com/file/8961
+		href #40 https://info.veracode.com/state-of-software-security-report.html
+		href #41 //cloud.typography.com/7267672/805964/css/fonts.css
+		href #42 //www.veracode.com/site-map
+		href #43 //www.veracode.com/
+		href #44 /products/runtime-protection-rasp
+		href #45 /products/web-application-scanning
+		href #46 /security/secure-development-lifecycle
+		href #47 //www.veracode.com/file/8976
+		href #48 https://www.veracode.com/about
+		href #49 /about/certifications
+		href #50 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+		href #51 /sites/all/themes/veracode/css/ie9.css
+		href #52 /resources/videos
+		href #53 /about-us
+		href #54 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
+		href #55 /sites/all/libraries/bxslider/jquery.bxslider.css
+		href #56 https://www.veracode.com/favicon.ico?v=2
+		href #57 /resources/analyst-reports
+		href #58 /solutions/by-role/IT-auditors
+		href #59 https://info.veracode.com/veracode-platform-demo-registration.html
+		href #60 /products
+		href #61 /solutions/by-need/streamlining-compliance
+		href #62 http://www.veracode.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
+		href #63 https://www.veracode.com/wannacry-ransomware-attack
+		href #64 /about
+		href #65 /services
+		href #66 https://www.veracode.com/software-security-explorer
+		href #67 https://info.veracode.com/whitepaper-using-metrics-to-manage-your-appsec.html
+		href #68 /news-events
+		href #69 /services/eLearning
+		href #70 https://info.veracode.com/ciso-kit-for-application-security.html
+		href #71 /products/application-security-platform
+		href #72 https://www.veracode.com/sites/default/files/Resources/Whitepapers/combating-the-top-4-sources-of-software-vulnerabilities.pdf
+		href #73 mailto:contact@veracode.com
+		href #74 https://info.veracode.com/analyst-report-gartner-mq-appsec-testing-2017.html
+		href #75 /resources/whitepapers
+		href #76 tel://1-888-937-0329
+		href #77 http://www.veracode.com/sites/default/files/css/css_e7GDKKL5tZ48UI_2bjN4mfyTddkZZALJagDx_ZXJkrU.css
+		href #78 /solutions/by-need/secure-development
+		href #79 /directory
+		href #80 /products/vendor-application-security-testing
+		href #81 /solutions/by-need/third-party-security
+		href #82 /resources/case-studies
+		href #83 http://www.veracode.com/sites/default/files/css/css_IS-wUs2cctGUa1xWQmruCBAoBiZ8F-Wb8kBknfV6ADI.css
+		href #84 /solutions/by-role/developers
+		href #85 //play.vidyard.com/vBpwfKx8wT59cLutmMNL6M.html?v=3.1.1&type=modal&autoplay=1
+		href #86 //www.veracode.com/privacy-policy
+		href #87 /about/why-veracode
+		href #88 /veracode-developer-training
+		href #89 /blog
+		href #90 https://www.veracode.com/sites/default/files/Resources/iPapers/find-your-appsec-zen/index.html
+		href #91 https://info.veracode.com/whitepaper-five-principles-for-securing-devops.html
+		href #92 /solutions/by-company/global-enterprise
+		href #93 /about/leadership/board-directors
+		href #94 https://info.veracode.com/webinar-how-your-applications-can-protect-themselves-from-cyberthreats.html
+		href #95 https://info.veracode.com/web-contact-us.html
+		href #96 https://info.veracode.com/veracode-trial-request.html
+		href #97 /security/xss
+		href #98 /veracode-helps-web-and-mobile-programmers-go-faster-more-securely-and-passes-two-trillion-mark-code
+		href #99 https://www.veracode.com/products/greenlight
+		href #100 /node/23171
+		href #101 https://veracode.portal.relayware.com/
+		href #102 http://www.veracode.com/sites/default/files/css/css__RG13GhIac6QVrJvqzonicQu8eiVLY179qONNT5zOok.css
+		href #103 https://www.twitter.com/veracode
+		href #104 https://www.veracode.com/sites/default/files/Resources/Whitepapers/how-vulnerabilities-get-into-software-veracode.pdf
+		href #105 /get-verafied-and-listed
+		href #106 /services/third-party-security
+		href #107 http://www.veracode.com/
+		href #108 http://www.veracode.com/sites/default/files/css/css_I0-h1-UrBD_ZaHZFYf9ftb9ZU2Eh83Ps8LfBkknfMaQ.css
+		href #109 //www.veracode.com/about/terms-of-use
+		href #110 /resources/whitepapers-datasheets
+		href #111 /resources/state-of-software-security
+		href #112 /security/web-application-vulnerabilities
+		href #113 /resources/demos
+		href #114 https://www.youtube.com/user/VeracodeInc
+		href #115 /resources/datasheets
+		href #116 /products-old
+		href #117 https://analysiscenter.veracode.com/
+		href #118 /services/developer-coaching
+		href #119 /solutions/by-need/web-application-security
+		href #120 /solutions/by-role/it-operations
+
+
+	Accessing href [http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css], handling this new url
+		Added new URL: #2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
+
+	Accessing href [https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i] from [http://www.veracode.com/], bringing us to [https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i], handling this new url
+		The url can be furthur formatted to https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
+		Added new URL: #3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
+
+	Accessing href [http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css], handling this new url
+		Added new URL: #4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
+
+	Accessing href [http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css], handling this new url
+		Added new URL: #5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
+
+	Accessing href [https://info.veracode.com/find-a-partner.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/find-a-partner.html], handling this new url
+		Added new URL: #6 https://info.veracode.com/find-a-partner.html
+
+	Skip href link [javascript:void(0)] because it is bound through Javascript
+
+	Accessing href [/solutions/by-company/midsize-enterprise] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/by-company/midsize-enterprise], handling this new url
+		Added new URL: #7 http://www.veracode.com/solutions/by-company/midsize-enterprise
+
+	Accessing href [https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website], handling this new url
+		Added new URL: #8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
+
+	Accessing href [/node/23076] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/node/23076], handling this new url
+		Not Added new URL: [http://www.veracode.com/] already in list
+
+		The url can be furthur formatted to http://www.veracode.com/
+		Added new URL: #8 http://www.veracode.com/
+
+	Accessing href [/services/program-management] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/services/program-management], handling this new url
+		Added new URL: #9 http://www.veracode.com/services/program-management
+
+	Accessing href [/about/careers] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/careers], handling this new url
+		Added new URL: #10 http://www.veracode.com/about/careers
+
+	Accessing href [/security] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/security], handling this new url
+		Added new URL: #11 http://www.veracode.com/security
+
+	Accessing href [https://info.veracode.com/request-quote.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/request-quote.html], handling this new url
+		Added new URL: #12 https://info.veracode.com/request-quote.html
+
+	Accessing href [/products/binary-static-analysis-sast] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/binary-static-analysis-sast], handling this new url
+		Added new URL: #13 http://www.veracode.com/products/binary-static-analysis-sast
+
+	Accessing href [http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css], handling this new url
+		Added new URL: #14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
+
+	Accessing href [//www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf], handling this new url
+		Added new URL: #15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
+
+	Accessing href [/about/leadership] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/leadership], handling this new url
+		The url can be furthur formatted to http://www.veracode.com/about/leadership/management
+		Added new URL: #16 http://www.veracode.com/about/leadership/management
+
+	Accessing href [/solutions/security-professionals] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/security-professionals], handling this new url
+		Added new URL: #17 http://www.veracode.com/solutions/security-professionals
+
+	Accessing href [/resources/faqs] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/faqs], handling this new url
+		Added new URL: #18 http://www.veracode.com/resources/faqs
+
+	Accessing href [/solutions/by-company/independent-software-vendor] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/by-company/independent-software-vendor], handling this new url
+		Added new URL: #19 http://www.veracode.com/solutions/by-company/independent-software-vendor
+
+	Accessing href [/about/partners] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/partners], handling this new url
+		Added new URL: #20 http://www.veracode.com/about/partners
+
+	Accessing href [https://info.veracode.com/apply-to-become-a-partner.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/apply-to-become-a-partner.html], handling this new url
+		Added new URL: #21 https://info.veracode.com/apply-to-become-a-partner.html
+
+	Accessing href [/products/developer-training] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/developer-training], handling this new url
+		Added new URL: #22 http://www.veracode.com/products/developer-training
+
+	Accessing href [/solutions/executives] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/executives], handling this new url
+		Added new URL: #23 http://www.veracode.com/solutions/executives
+
+	Accessing href [https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html] from [http://www.veracode.com/], bringing us to [https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html], handling this new url
+		The url can be furthur formatted to https://www.ca.com/us/company/acquisitions/veracode.html
+		Added new URL: #24 https://www.ca.com/us/company/acquisitions/veracode.html
+
+	Accessing href [https://www.facebook.com/VeracodeInc] from [http://www.veracode.com/], bringing us to [https://www.facebook.com/VeracodeInc], handling this new url
+		Added new URL: #25 https://www.facebook.com/VeracodeInc
+
+	Accessing href [/resources/webinars] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/webinars], handling this new url
+		Added new URL: #26 http://www.veracode.com/resources/webinars
+
+	Accessing href [/products/software-composition-analysis] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/software-composition-analysis], handling this new url
+		Added new URL: #27 http://www.veracode.com/products/software-composition-analysis
+
+	Accessing href [/services/penetration-testing] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/services/penetration-testing], handling this new url
+		Added new URL: #28 http://www.veracode.com/services/penetration-testing
+
+	Accessing href [//www.veracode.com/about/certifications] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/certifications], handling this new url
+		Added new URL: #29 http://www.veracode.com/about/certifications
+
+	Accessing href [https://www.veracode.com/resources/case-studies] from [http://www.veracode.com/], bringing us to [https://www.veracode.com/resources/case-studies], handling this new url
+		Added new URL: #30 https://www.veracode.com/resources/case-studies
+
+	Accessing href [tel://1-877-837-2203] from [http://www.veracode.com/], bringing us to [tel://1-877-837-2203], handling this new url
+		Invalid URL [tel://1-877-837-2203], accessing failed with [No connection adapters were found for 'tel://1-877-837-2203'].
+	Accessing href [https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html], handling this new url
+		Added new URL: #31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
+
+	Accessing href [/solutions] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions], handling this new url
+		Added new URL: #32 http://www.veracode.com/solutions
+
+	Accessing href [https://www.linkedin.com/company/veracode] from [http://www.veracode.com/], bringing us to [https://www.linkedin.com/company/veracode], handling this new url
+		Added new URL: #33 https://www.linkedin.com/company/veracode
+
+	Accessing href [/resources] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources], handling this new url
+		Added new URL: #34 http://www.veracode.com/resources
+
+	Accessing href [/sites/all/themes/veracode/css/ie8.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/themes/veracode/css/ie8.css], handling this new url
+		Added new URL: #35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
+
+	Accessing href [/node/23116] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/node/23116], handling this new url
+		Added new URL: #36 http://www.veracode.com/node/23116
+
+	Accessing href [//www.veracode.com/file/8961] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/file/8961], handling this new url
+		Added new URL: #37 http://www.veracode.com/file/8961
+
+	Accessing href [https://info.veracode.com/state-of-software-security-report.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/state-of-software-security-report.html], handling this new url
+		Added new URL: #38 https://info.veracode.com/state-of-software-security-report.html
+
+	Accessing href [//cloud.typography.com/7267672/805964/css/fonts.css] from [http://www.veracode.com/], bringing us to [http://cloud.typography.com/7267672/805964/css/fonts.css], handling this new url
+		Invalid URL [http://cloud.typography.com/7267672/805964/css/fonts.css], accessing failed with [403 Client Error: Forbidden for url: http://cloud.typography.com/7267672/805964/css/fonts.css].
+	Accessing href [//www.veracode.com/site-map] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/site-map], handling this new url
+		Added new URL: #39 http://www.veracode.com/site-map
+
+	Accessing href [//www.veracode.com/] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/], handling this new url
+	Accessing href [/products/runtime-protection-rasp] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/runtime-protection-rasp], handling this new url
+		Added new URL: #40 http://www.veracode.com/products/runtime-protection-rasp
+
+	Accessing href [/products/web-application-scanning] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/web-application-scanning], handling this new url
+		Added new URL: #41 http://www.veracode.com/products/web-application-scanning
+
+	Accessing href [/security/secure-development-lifecycle] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/security/secure-development-lifecycle], handling this new url
+		Added new URL: #42 http://www.veracode.com/security/secure-development-lifecycle
+
+	Accessing href [//www.veracode.com/file/8976] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/file/8976], handling this new url
+		Added new URL: #43 http://www.veracode.com/file/8976
+
+	Accessing href [https://www.veracode.com/about] from [http://www.veracode.com/], bringing us to [https://www.veracode.com/about], handling this new url
+		Added new URL: #44 https://www.veracode.com/about
+
+	Accessing href [/about/certifications] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/certifications], handling this new url
+	Accessing href [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css] from [http://www.veracode.com/], bringing us to [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css], handling this new url
+		Added new URL: #45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+
+	Accessing href [/sites/all/themes/veracode/css/ie9.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/themes/veracode/css/ie9.css], handling this new url
+		Added new URL: #46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
+
+	Accessing href [/resources/videos] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/videos], handling this new url
+		Added new URL: #47 http://www.veracode.com/resources/videos
+
+	Accessing href [/about-us] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about-us], handling this new url
+		The url can be furthur formatted to http://www.veracode.com/about
+		Added new URL: #48 http://www.veracode.com/about
+
+	Accessing href [https://info.veracode.com/webinar-SANS-why-you-need-application-security.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/webinar-SANS-why-you-need-application-security.html], handling this new url
+		Added new URL: #49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
+
+	Accessing href [/sites/all/libraries/bxslider/jquery.bxslider.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css], handling this new url
+		Added new URL: #50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css
+
+
+Printing all valid URLs of up to 50 URLs
+	1 http://www.veracode.com/
+	2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
+	3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
+	4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
+	5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
+	6 https://info.veracode.com/find-a-partner.html
+	7 http://www.veracode.com/solutions/by-company/midsize-enterprise
+	8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
+	9 http://www.veracode.com/services/program-management
+	10 http://www.veracode.com/about/careers
+	11 http://www.veracode.com/security
+	12 https://info.veracode.com/request-quote.html
+	13 http://www.veracode.com/products/binary-static-analysis-sast
+	14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
+	15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
+	16 http://www.veracode.com/about/leadership/management
+	17 http://www.veracode.com/solutions/security-professionals
+	18 http://www.veracode.com/resources/faqs
+	19 http://www.veracode.com/solutions/by-company/independent-software-vendor
+	20 http://www.veracode.com/about/partners
+	21 https://info.veracode.com/apply-to-become-a-partner.html
+	22 http://www.veracode.com/products/developer-training
+	23 http://www.veracode.com/solutions/executives
+	24 https://www.ca.com/us/company/acquisitions/veracode.html
+	25 https://www.facebook.com/VeracodeInc
+	26 http://www.veracode.com/resources/webinars
+	27 http://www.veracode.com/products/software-composition-analysis
+	28 http://www.veracode.com/services/penetration-testing
+	29 http://www.veracode.com/about/certifications
+	30 https://www.veracode.com/resources/case-studies
+	31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
+	32 http://www.veracode.com/solutions
+	33 https://www.linkedin.com/company/veracode
+	34 http://www.veracode.com/resources
+	35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
+	36 http://www.veracode.com/node/23116
+	37 http://www.veracode.com/file/8961
+	38 https://info.veracode.com/state-of-software-security-report.html
+	39 http://www.veracode.com/site-map
+	40 http://www.veracode.com/products/runtime-protection-rasp
+	41 http://www.veracode.com/products/web-application-scanning
+	42 http://www.veracode.com/security/secure-development-lifecycle
+	43 http://www.veracode.com/file/8976
+	44 https://www.veracode.com/about
+	45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+	46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
+	47 http://www.veracode.com/resources/videos
+	48 http://www.veracode.com/about
+	49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
+	50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css

@@ -1,0 +1,11 @@
+## default is to find up to 50 links, use -n to modify the number.
+#### command "python urlTaskMgr.py -u https://google.com  -n 5" will find up to five links, result is:
+Starting from accessing URL [https://google.com], find a total of 5 valid URLs or until none is left to find.
+
+
+Printing all valid URLs of up to 5 URLs
+	1 https://www.google.com/
+	2 https://www.google.com/intl/en/ads/
+	3 https://plus.google.com/116899029375914044550
+	4 https://translate.google.com/
+	5 https://www.google.com/about/main/gender-equality-films/
