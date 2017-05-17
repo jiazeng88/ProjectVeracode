@@ -1,0 +1,101 @@
+In this program, it is essential to get hrefs correctly from the response contents.
+
+The URL below has many odd hrefs (empty string href, href= followed by \n\s)
+https://www.google.com/intl/en/ads/
+
+(Pdb) import requests
+(Pdb) url = 'https://www.google.com/intl/en/ads/'
+(Pdb) import re
+(Pdb) from lxml import html
+
+By using the html module we get 36 hrefs, including two empty string hrefs (which we don't care in this program).
+(Pdb) page = requests.get(url)
+(Pdb) webpage = html.fromstring(page.content)
+(Pdb) links = webpage.xpath('//a/@href')
+(Pdb) len(links)
+36
+(Pdb) for i in links: print i
+../ads/
+/intl/en/ads/publisher/?sourceid=awo&subid=ww-ww-et-adsol_publ_v2#?modal_active=none
+https://adwords.google.com/um/StartNow?hl=en&sourceid=awo&subid=ww-ww-et-awhp
+tel:1-800-881-0357
+tel:1-800-881-0357
+https://www.google.com/intl/en/policies/privacy/?fg=1
+https://www.google.com/ads/publisher/?sourceid=awo&subid=us-en-et-adsexp_publ_v2
+https://adwords.google.com/intl/en_us/home/how-it-works/search-ads/?sourceid=awo&subid=ww-ww-et-g-aw-a-adsol_sa_1!o2
+https://adwords.google.com/intl/en_us/home/how-it-works/display-ads/?sourceid=awo&subid=ww-ww-et-g-aw-a-adsol_da_1!o2
+https://adwords.google.com/intl/en_us/home/how-it-works/video-ads/?sourceid=awo&subid=ww-ww-et-g-aw-a-adsol_va_1!o2
+https://www.google.com/intl/en/adwords/express/?sourceid=awo&subid=ww-ww-et-adsol_awx
+https://www.google.com/intl/en/retail/shopping-campaigns/?utm_source=Internal&utm_medium=InPage&utm_campaign=shoppingcampaigns
+https://adwords.google.com/intl/en_us/home/how-it-works/app-ads/?sourceid=awo&subid=ww-ww-et-g-aw-a-adsol_apps_1!o2
+https://plus.google.com/+GoogleAds/posts
+https://adwords.blogspot.com/
+https://twitter.com/adwords
+https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
+https://support.google.com/adwords/answer/6146252?hl=en
+
+https://support.google.com/adwords/?hl=en#topic=3119071
+
+https://developers.google.com/?hl=en
+https://developers.google.com/adwords/api/?hl=en
+https://developers.google.com/adwords/scripts/?hl=en
+https://support.google.com/adwords/answer/2476688?hl=en
+https://www.google.com/intl/en/adwords/express/?utm_source=awx&utm_medium=et&utm_campaign=ww-ww-et-awx_bizsol
+/intl/en/retail/solutions/shopping-campaigns/
+https://www.google.com/intl/en/business/?gmbsrc=ww-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&subid=ww-ww-et-adsol
+https://www.google.com/intl/en/services/?sourceid=bizsol&subid=ww-ww-et-adsol_bizsol
+https://www.google.com/intl/en/retail/
+?utm_medium=et&utm_source=adsol
+https://www.google.com/intl/en/analytics/?utm_source=Internal&utm_medium=adsol
+https://support.google.com/ads/?hl=en
+//www.google.com
+//www.google.com/intl/en/policies/privacy/
+//www.google.com/intl/en/policies/terms/
+
+By using the parser in this program we get 40 hrefs, and it did not get empty string href (which we don't care in this program).
+(Pdb) link2 = re.findall('''href=[\n]*[\s]*["'](.[^"' ]+)["']''', page.content)                                                                                                   
+(Pdb) len(link2)
+40
+(Pdb) for i in link2: print i
+//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en
+//fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en
+//fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en
+/ads/css/rs.ads.min.css
+https://www.google.com/images/branding/product/ico/googleg_alldp.ico
+https://www.google.com/ads/
+../ads/
+/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none
+https://adwords.google.com/um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-et-awhp
+tel:1-800-881-0357
+tel:1-800-881-0357
+https://www.google.com/intl/en/policies/privacy/?fg=1
+https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2
+https://adwords.google.com/intl/en_us/home/how-it-works/search-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_sa_1!o2
+https://adwords.google.com/intl/en_us/home/how-it-works/display-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_da_1!o2
+https://adwords.google.com/intl/en_us/home/how-it-works/video-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_va_1!o2
+https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx
+https://www.google.com/intl/en/retail/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
+https://adwords.google.com/intl/en_us/home/how-it-works/app-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_apps_1!o2
+https://plus.google.com/+GoogleAds/posts
+https://adwords.blogspot.com/
+https://twitter.com/adwords
+https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
+https://support.google.com/adwords/answer/6146252?hl=en
+https://support.google.com/adwords/?hl=en#topic=3119071
+https://developers.google.com/?hl=en
+https://developers.google.com/adwords/api/?hl=en
+https://developers.google.com/adwords/scripts/?hl=en
+https://support.google.com/adwords/answer/2476688?hl=en
+https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol
+/intl/en/retail/solutions/shopping-campaigns/
+https://www.google.com/intl/en/business/?gmbsrc=ww-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;subid=ww-ww-et-adsol
+https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol
+https://www.google.com/intl/en/retail/
+?utm_medium=et&amp;utm_source=adsol
+https://www.google.com/intl/en/analytics/?utm_source=Internal&amp;utm_medium=adsol
+https://support.google.com/ads/?hl=en
+//www.google.com
+//www.google.com/intl/en/policies/privacy/
+//www.google.com/intl/en/policies/terms/
+
+In this case, our parser gets more hrefs.
