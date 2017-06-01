@@ -1,4 +1,4 @@
-# ProjectVeracode
+# Project Web Crawler
 # This Python program urlTaskMgr.py takes an URL, accessing it and finds more URLs repeatedly and recursively. It reports errors in execution and at the end reports valid URLs found.
 
 # specify URL with -u
