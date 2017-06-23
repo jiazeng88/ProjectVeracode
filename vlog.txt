@@ -1,349 +1,296 @@
 ## use -v <nonzero> to run verbose mode
 ## output of command "python urlTaskMgr.py -u https://veracode.com -v 1":
 
-Starting from accessing URL [https://veracode.com], find a total of 50 valid URLs or until none is left to find.
+Starting from accessing URL [https://google.com], find a total of 50 valid URLs or until none is left to find.
 
-		The url can be furthur formatted to http://www.veracode.com/
-		Added new URL: #1 http://www.veracode.com/
+		The url can be furthur formatted to https://www.google.com/
+		Added new URL: #1 https://www.google.com/
 
-Under URL http://www.veracode.com/ 188 links (including duplicate links) found 
-	Taking out duplidate href links left with 120: 
-		href #1 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
-		href #2 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i
-		href #3 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
-		href #4 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
-		href #5 https://info.veracode.com/find-a-partner.html
-		href #6 javascript:void(0)
-		href #7 /solutions/by-company/midsize-enterprise
-		href #8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
-		href #9 /node/23076
-		href #10 /services/program-management
-		href #11 /about/careers
-		href #12 /security
-		href #13 https://info.veracode.com/request-quote.html
-		href #14 /products/binary-static-analysis-sast
-		href #15 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
-		href #16 //www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
-		href #17 /about/leadership
-		href #18 /solutions/security-professionals
-		href #19 /resources/faqs
-		href #20 /solutions/by-company/independent-software-vendor
-		href #21 /about/partners
-		href #22 https://info.veracode.com/apply-to-become-a-partner.html
-		href #23 /products/developer-training
-		href #24 /solutions/executives
-		href #25 https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html
-		href #26 https://www.facebook.com/VeracodeInc
-		href #27 /resources/webinars
-		href #28 /products/software-composition-analysis
-		href #29 /services/penetration-testing
-		href #30 //www.veracode.com/about/certifications
-		href #31 https://www.veracode.com/resources/case-studies
-		href #32 tel://1-877-837-2203
-		href #33 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
-		href #34 /solutions
-		href #35 https://www.linkedin.com/company/veracode
-		href #36 /resources
-		href #37 /sites/all/themes/veracode/css/ie8.css
-		href #38 /node/23116
-		href #39 //www.veracode.com/file/8961
-		href #40 https://info.veracode.com/state-of-software-security-report.html
-		href #41 //cloud.typography.com/7267672/805964/css/fonts.css
-		href #42 //www.veracode.com/site-map
-		href #43 //www.veracode.com/
-		href #44 /products/runtime-protection-rasp
-		href #45 /products/web-application-scanning
-		href #46 /security/secure-development-lifecycle
-		href #47 //www.veracode.com/file/8976
-		href #48 https://www.veracode.com/about
-		href #49 /about/certifications
-		href #50 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
-		href #51 /sites/all/themes/veracode/css/ie9.css
-		href #52 /resources/videos
-		href #53 /about-us
-		href #54 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
-		href #55 /sites/all/libraries/bxslider/jquery.bxslider.css
-		href #56 https://www.veracode.com/favicon.ico?v=2
-		href #57 /resources/analyst-reports
-		href #58 /solutions/by-role/IT-auditors
-		href #59 https://info.veracode.com/veracode-platform-demo-registration.html
-		href #60 /products
-		href #61 /solutions/by-need/streamlining-compliance
-		href #62 http://www.veracode.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css
-		href #63 https://www.veracode.com/wannacry-ransomware-attack
-		href #64 /about
-		href #65 /services
-		href #66 https://www.veracode.com/software-security-explorer
-		href #67 https://info.veracode.com/whitepaper-using-metrics-to-manage-your-appsec.html
-		href #68 /news-events
-		href #69 /services/eLearning
-		href #70 https://info.veracode.com/ciso-kit-for-application-security.html
-		href #71 /products/application-security-platform
-		href #72 https://www.veracode.com/sites/default/files/Resources/Whitepapers/combating-the-top-4-sources-of-software-vulnerabilities.pdf
-		href #73 mailto:contact@veracode.com
-		href #74 https://info.veracode.com/analyst-report-gartner-mq-appsec-testing-2017.html
-		href #75 /resources/whitepapers
-		href #76 tel://1-888-937-0329
-		href #77 http://www.veracode.com/sites/default/files/css/css_e7GDKKL5tZ48UI_2bjN4mfyTddkZZALJagDx_ZXJkrU.css
-		href #78 /solutions/by-need/secure-development
-		href #79 /directory
-		href #80 /products/vendor-application-security-testing
-		href #81 /solutions/by-need/third-party-security
-		href #82 /resources/case-studies
-		href #83 http://www.veracode.com/sites/default/files/css/css_IS-wUs2cctGUa1xWQmruCBAoBiZ8F-Wb8kBknfV6ADI.css
-		href #84 /solutions/by-role/developers
-		href #85 //play.vidyard.com/vBpwfKx8wT59cLutmMNL6M.html?v=3.1.1&type=modal&autoplay=1
-		href #86 //www.veracode.com/privacy-policy
-		href #87 /about/why-veracode
-		href #88 /veracode-developer-training
-		href #89 /blog
-		href #90 https://www.veracode.com/sites/default/files/Resources/iPapers/find-your-appsec-zen/index.html
-		href #91 https://info.veracode.com/whitepaper-five-principles-for-securing-devops.html
-		href #92 /solutions/by-company/global-enterprise
-		href #93 /about/leadership/board-directors
-		href #94 https://info.veracode.com/webinar-how-your-applications-can-protect-themselves-from-cyberthreats.html
-		href #95 https://info.veracode.com/web-contact-us.html
-		href #96 https://info.veracode.com/veracode-trial-request.html
-		href #97 /security/xss
-		href #98 /veracode-helps-web-and-mobile-programmers-go-faster-more-securely-and-passes-two-trillion-mark-code
-		href #99 https://www.veracode.com/products/greenlight
-		href #100 /node/23171
-		href #101 https://veracode.portal.relayware.com/
-		href #102 http://www.veracode.com/sites/default/files/css/css__RG13GhIac6QVrJvqzonicQu8eiVLY179qONNT5zOok.css
-		href #103 https://www.twitter.com/veracode
-		href #104 https://www.veracode.com/sites/default/files/Resources/Whitepapers/how-vulnerabilities-get-into-software-veracode.pdf
-		href #105 /get-verafied-and-listed
-		href #106 /services/third-party-security
-		href #107 http://www.veracode.com/
-		href #108 http://www.veracode.com/sites/default/files/css/css_I0-h1-UrBD_ZaHZFYf9ftb9ZU2Eh83Ps8LfBkknfMaQ.css
-		href #109 //www.veracode.com/about/terms-of-use
-		href #110 /resources/whitepapers-datasheets
-		href #111 /resources/state-of-software-security
-		href #112 /security/web-application-vulnerabilities
-		href #113 /resources/demos
-		href #114 https://www.youtube.com/user/VeracodeInc
-		href #115 /resources/datasheets
-		href #116 /products-old
-		href #117 https://analysiscenter.veracode.com/
-		href #118 /services/developer-coaching
-		href #119 /solutions/by-need/web-application-security
-		href #120 /solutions/by-role/it-operations
+Under URL https://www.google.com/ 21 links (including duplicate links) found 
+	Taking out duplidate href links left with 21: 
+		href #1 /intl/en/ads/
+		href #2 /search?site=&amp;ie=UTF-8&amp;q=Oskar+Fischinger&amp;oi=ddle&amp;ct=oskar-fischingers-117th-birthday-5635181101711360-lawcta&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjltMjpyNTUAhXIGT4KHWK1C8UQPQgD
+		href #3 /language_tools?hl=en&amp;authuser=0
+		href #4 https://plus.google.com/116899029375914044550
+		href #5 https://play.google.com/?hl=en&tab=w8
+		href #6 /intl/en/policies/privacy/
+		href #7 /preferences?hl=en
+		href #8 http://www.google.com/history/optout?hl=en
+		href #9 /images/branding/product/ico/googleg_lodp.ico
+		href #10 https://maps.google.com/maps?hl=en&tab=wl
+		href #11 /intl/en/about.html
+		href #12 /services/
+		href #13 https://www.google.com/imghp?hl=en&tab=wi
+		href #14 https://www.google.com/intl/en/options/
+		href #15 /intl/en/policies/terms/
+		href #16 https://www.youtube.com/?tab=w1
+		href #17 https://mail.google.com/mail/?tab=wm
+		href #18 /advanced_search?hl=en&amp;authuser=0
+		href #19 https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/
+		href #20 https://news.google.com/nwshp?hl=en&tab=wn
+		href #21 https://drive.google.com/?tab=wo
 
 
-	Accessing href [http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css], handling this new url
-		Added new URL: #2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
+	Accessing href [/intl/en/ads/] from [https://www.google.com/], bringing us to [https://www.google.com/intl/en/ads/], handling this new url
+		Added new URL: #2 https://www.google.com/intl/en/ads/
 
-	Accessing href [https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i] from [http://www.veracode.com/], bringing us to [https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600|Montserrat:400,700|Titillium+Web:300,300i], handling this new url
-		The url can be furthur formatted to https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
-		Added new URL: #3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
+	Accessing href [/search?site=&amp;ie=UTF-8&amp;q=Oskar+Fischinger&amp;oi=ddle&amp;ct=oskar-fischingers-117th-birthday-5635181101711360-lawcta&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjltMjpyNTUAhXIGT4KHWK1C8UQPQgD] from [https://www.google.com/], bringing us to [https://www.google.com/search?site=&amp;ie=UTF-8&amp;q=Oskar+Fischinger&amp;oi=ddle&amp;ct=oskar-fischingers-117th-birthday-5635181101711360-lawcta&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjltMjpyNTUAhXIGT4KHWK1C8UQPQgD], handling this new url
+		The url can be furthur formatted to https://www.google.com/webhp?site=
+		Added new URL: #3 https://www.google.com/webhp?site=
 
-	Accessing href [http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css], handling this new url
-		Added new URL: #4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
+	Accessing href [/language_tools?hl=en&amp;authuser=0] from [https://www.google.com/], bringing us to [https://www.google.com/language_tools?hl=en&amp;authuser=0], handling this new url
+		The url can be furthur formatted to https://translate.google.com/
+		Added new URL: #4 https://translate.google.com/
 
-	Accessing href [http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css], handling this new url
-		Added new URL: #5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
+	Accessing href [https://plus.google.com/116899029375914044550] from [https://www.google.com/], bringing us to [https://plus.google.com/116899029375914044550], handling this new url
+		Added new URL: #5 https://plus.google.com/116899029375914044550
 
-	Accessing href [https://info.veracode.com/find-a-partner.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/find-a-partner.html], handling this new url
-		Added new URL: #6 https://info.veracode.com/find-a-partner.html
+	Accessing href [https://play.google.com/?hl=en&tab=w8] from [https://www.google.com/], bringing us to [https://play.google.com/?hl=en&tab=w8], handling this new url
+		The url can be furthur formatted to https://play.google.com/store?hl=en&tab=w8
+		Added new URL: #6 https://play.google.com/store?hl=en&tab=w8
 
-	Skip href link [javascript:void(0)] because it is bound through Javascript
+	Accessing href [/intl/en/policies/privacy/] from [https://www.google.com/], bringing us to [https://www.google.com/intl/en/policies/privacy/], handling this new url
+		Added new URL: #7 https://www.google.com/intl/en/policies/privacy/
 
-	Accessing href [/solutions/by-company/midsize-enterprise] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/by-company/midsize-enterprise], handling this new url
-		Added new URL: #7 http://www.veracode.com/solutions/by-company/midsize-enterprise
+	Accessing href [/preferences?hl=en] from [https://www.google.com/], bringing us to [https://www.google.com/preferences?hl=en], handling this new url
+		Added new URL: #8 https://www.google.com/preferences?hl=en
 
-	Accessing href [https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website], handling this new url
-		Added new URL: #8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
+	Accessing href [http://www.google.com/history/optout?hl=en] from [https://www.google.com/], bringing us to [http://www.google.com/history/optout?hl=en], handling this new url
+		The url can be furthur formatted to http://www.google.com/history/optout?hl=en&nzb=1
+		Added new URL: #9 http://www.google.com/history/optout?hl=en&nzb=1
 
-	Accessing href [/node/23076] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/node/23076], handling this new url
-		Not Added new URL: [http://www.veracode.com/] already in list
+	Accessing href [/images/branding/product/ico/googleg_lodp.ico] from [https://www.google.com/], bringing us to [https://www.google.com/images/branding/product/ico/googleg_lodp.ico], handling this new url
+		Added new URL: #10 https://www.google.com/images/branding/product/ico/googleg_lodp.ico
 
-		The url can be furthur formatted to http://www.veracode.com/
-		Added new URL: #8 http://www.veracode.com/
+	Accessing href [https://maps.google.com/maps?hl=en&tab=wl] from [https://www.google.com/], bringing us to [https://maps.google.com/maps?hl=en&tab=wl], handling this new url
+		The url can be furthur formatted to https://www.google.com/maps/@?hl=en&dg=dbrw&newdg=1
+		Added new URL: #11 https://www.google.com/maps/@?hl=en&dg=dbrw&newdg=1
 
-	Accessing href [/services/program-management] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/services/program-management], handling this new url
-		Added new URL: #9 http://www.veracode.com/services/program-management
+	Accessing href [/intl/en/about.html] from [https://www.google.com/], bringing us to [https://www.google.com/intl/en/about.html], handling this new url
+		The url can be furthur formatted to https://www.google.com/intl/en/about/
+		Added new URL: #12 https://www.google.com/intl/en/about/
 
-	Accessing href [/about/careers] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/careers], handling this new url
-		Added new URL: #10 http://www.veracode.com/about/careers
+	Accessing href [/services/] from [https://www.google.com/], bringing us to [https://www.google.com/services/], handling this new url
+		Added new URL: #13 https://www.google.com/services/
 
-	Accessing href [/security] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/security], handling this new url
-		Added new URL: #11 http://www.veracode.com/security
+	Accessing href [https://www.google.com/imghp?hl=en&tab=wi] from [https://www.google.com/], bringing us to [https://www.google.com/imghp?hl=en&tab=wi], handling this new url
+		Added new URL: #14 https://www.google.com/imghp?hl=en&tab=wi
 
-	Accessing href [https://info.veracode.com/request-quote.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/request-quote.html], handling this new url
-		Added new URL: #12 https://info.veracode.com/request-quote.html
+	Accessing href [https://www.google.com/intl/en/options/] from [https://www.google.com/], bringing us to [https://www.google.com/intl/en/options/], handling this new url
+		The url can be furthur formatted to https://www.google.com/intl/en/about/products/
+		Added new URL: #15 https://www.google.com/intl/en/about/products/
 
-	Accessing href [/products/binary-static-analysis-sast] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/binary-static-analysis-sast], handling this new url
-		Added new URL: #13 http://www.veracode.com/products/binary-static-analysis-sast
+	Accessing href [/intl/en/policies/terms/] from [https://www.google.com/], bringing us to [https://www.google.com/intl/en/policies/terms/], handling this new url
+		Added new URL: #16 https://www.google.com/intl/en/policies/terms/
 
-	Accessing href [http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css], handling this new url
-		Added new URL: #14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
+	Accessing href [https://www.youtube.com/?tab=w1] from [https://www.google.com/], bringing us to [https://www.youtube.com/?tab=w1], handling this new url
+		Added new URL: #17 https://www.youtube.com/?tab=w1
 
-	Accessing href [//www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf], handling this new url
-		Added new URL: #15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
+	Accessing href [https://mail.google.com/mail/?tab=wm] from [https://www.google.com/], bringing us to [https://mail.google.com/mail/?tab=wm], handling this new url
+		The url can be furthur formatted to https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1
+		Added new URL: #18 https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1
 
-	Accessing href [/about/leadership] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/leadership], handling this new url
-		The url can be furthur formatted to http://www.veracode.com/about/leadership/management
-		Added new URL: #16 http://www.veracode.com/about/leadership/management
+	Accessing href [/advanced_search?hl=en&amp;authuser=0] from [https://www.google.com/], bringing us to [https://www.google.com/advanced_search?hl=en&amp;authuser=0], handling this new url
+		Added new URL: #19 https://www.google.com/advanced_search?hl=en&amp;authuser=0
 
-	Accessing href [/solutions/security-professionals] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/security-professionals], handling this new url
-		Added new URL: #17 http://www.veracode.com/solutions/security-professionals
+	Accessing href [https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/] from [https://www.google.com/], bringing us to [https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/], handling this new url
+		Added new URL: #20 https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/
 
-	Accessing href [/resources/faqs] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/faqs], handling this new url
-		Added new URL: #18 http://www.veracode.com/resources/faqs
+	Accessing href [https://news.google.com/nwshp?hl=en&tab=wn] from [https://www.google.com/], bringing us to [https://news.google.com/nwshp?hl=en&tab=wn], handling this new url
+		Added new URL: #21 https://news.google.com/nwshp?hl=en&tab=wn
 
-	Accessing href [/solutions/by-company/independent-software-vendor] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/by-company/independent-software-vendor], handling this new url
-		Added new URL: #19 http://www.veracode.com/solutions/by-company/independent-software-vendor
+	Accessing href [https://drive.google.com/?tab=wo] from [https://www.google.com/], bringing us to [https://drive.google.com/?tab=wo], handling this new url
+		The url can be furthur formatted to https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/?tab%3Dwo&followup=https://drive.google.com/?tab%3Dwo&emr=1
+		Added new URL: #22 https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/?tab%3Dwo&followup=https://drive.google.com/?tab%3Dwo&emr=1
 
-	Accessing href [/about/partners] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/partners], handling this new url
-		Added new URL: #20 http://www.veracode.com/about/partners
+Under URL https://www.google.com/intl/en/ads/ 40 links (including duplicate links) found 
+	Taking out duplidate href links left with 39: 
+		href #1 //fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en
+		href #2 https://support.google.com/adwords/answer/2476688?hl=en
+		href #3 //www.google.com/intl/en/policies/terms/
+		href #4 /intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none
+		href #5 https://www.google.com/ads/
+		href #6 tel:1-800-881-0357
+		href #7 https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
+		href #8 https://adwords.blogspot.com/
+		href #9 https://www.google.com/intl/en/retail/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
+		href #10 https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2
+		href #11 https://www.google.com/intl/en/retail/
+		href #12 https://adwords.google.com/intl/en_us/home/how-it-works/video-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_va_1!o2
+		href #13 https://adwords.google.com/um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-et-awhp
+		href #14 https://www.google.com/images/branding/product/ico/googleg_alldp.ico
+		href #15 https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx
+		href #16 ?utm_medium=et&amp;utm_source=adsol
+		href #17 https://plus.google.com/+GoogleAds/posts
+		href #18 //www.google.com/intl/en/policies/privacy/
+		href #19 https://adwords.google.com/intl/en_us/home/how-it-works/app-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_apps_1!o2
+		href #20 //fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en
+		href #21 //fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en
+		href #22 https://www.google.com/intl/en/policies/privacy/?fg=1
+		href #23 https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol
+		href #24 https://developers.google.com/adwords/scripts/?hl=en
+		href #25 https://developers.google.com/adwords/api/?hl=en
+		href #26 https://support.google.com/adwords/?hl=en#topic=3119071
+		href #27 https://developers.google.com/?hl=en
+		href #28 ../ads/
+		href #29 /intl/en/retail/solutions/shopping-campaigns/
+		href #30 https://support.google.com/adwords/answer/6146252?hl=en
+		href #31 https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol
+		href #32 https://www.google.com/intl/en/analytics/?utm_source=Internal&amp;utm_medium=adsol
+		href #33 https://adwords.google.com/intl/en_us/home/how-it-works/search-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_sa_1!o2
+		href #34 /ads/css/rs.ads.min.css
+		href #35 https://twitter.com/adwords
+		href #36 https://www.google.com/intl/en/business/?gmbsrc=ww-ww-et-gs-z-gmb-s-z-l~ser-ctrl-u&amp;subid=ww-ww-et-adsol
+		href #37 https://adwords.google.com/intl/en_us/home/how-it-works/display-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_da_1!o2
+		href #38 https://support.google.com/ads/?hl=en
+		href #39 //www.google.com
 
-	Accessing href [https://info.veracode.com/apply-to-become-a-partner.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/apply-to-become-a-partner.html], handling this new url
-		Added new URL: #21 https://info.veracode.com/apply-to-become-a-partner.html
 
-	Accessing href [/products/developer-training] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/developer-training], handling this new url
-		Added new URL: #22 http://www.veracode.com/products/developer-training
+	Accessing href [//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en], handling this new url
+		Added new URL: #23 https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en
 
-	Accessing href [/solutions/executives] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions/executives], handling this new url
-		Added new URL: #23 http://www.veracode.com/solutions/executives
+	Accessing href [https://support.google.com/adwords/answer/2476688?hl=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://support.google.com/adwords/answer/2476688?hl=en], handling this new url
+		Added new URL: #24 https://support.google.com/adwords/answer/2476688?hl=en
 
-	Accessing href [https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html] from [http://www.veracode.com/], bringing us to [https://www.ca.com/us/why-ca/about-us/acquisitions/veracode.html], handling this new url
-		The url can be furthur formatted to https://www.ca.com/us/company/acquisitions/veracode.html
-		Added new URL: #24 https://www.ca.com/us/company/acquisitions/veracode.html
+	Accessing href [//www.google.com/intl/en/policies/terms/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/policies/terms/], handling this new url
+	Accessing href [/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none], handling this new url
+		Added new URL: #25 https://www.google.com/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none
 
-	Accessing href [https://www.facebook.com/VeracodeInc] from [http://www.veracode.com/], bringing us to [https://www.facebook.com/VeracodeInc], handling this new url
-		Added new URL: #25 https://www.facebook.com/VeracodeInc
+	Accessing href [https://www.google.com/ads/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/ads/], handling this new url
+		Added new URL: #26 https://www.google.com/ads/
 
-	Accessing href [/resources/webinars] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/webinars], handling this new url
-		Added new URL: #26 http://www.veracode.com/resources/webinars
+	Accessing href [tel:1-800-881-0357] from [https://www.google.com/intl/en/ads/], bringing us to [tel:1-800-881-0357], handling this new url
+		Invalid URL [tel:1-800-881-0357], accessing failed with [No connection adapters were found for 'tel:1-800-881-0357'].
+	Accessing href [https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg], handling this new url
+		Added new URL: #27 https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
 
-	Accessing href [/products/software-composition-analysis] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/software-composition-analysis], handling this new url
-		Added new URL: #27 http://www.veracode.com/products/software-composition-analysis
+	Accessing href [https://adwords.blogspot.com/] from [https://www.google.com/intl/en/ads/], bringing us to [https://adwords.blogspot.com/], handling this new url
+		The url can be furthur formatted to https://adwords.googleblog.com/
+		Added new URL: #28 https://adwords.googleblog.com/
 
-	Accessing href [/services/penetration-testing] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/services/penetration-testing], handling this new url
-		Added new URL: #28 http://www.veracode.com/services/penetration-testing
+	Accessing href [https://www.google.com/intl/en/retail/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/retail/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns], handling this new url
+		The url can be furthur formatted to https://www.google.com/intl/en/retail/solutions/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
+		Added new URL: #29 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
 
-	Accessing href [//www.veracode.com/about/certifications] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/certifications], handling this new url
-		Added new URL: #29 http://www.veracode.com/about/certifications
+	Accessing href [https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2], handling this new url
+		Added new URL: #30 https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2
 
-	Accessing href [https://www.veracode.com/resources/case-studies] from [http://www.veracode.com/], bringing us to [https://www.veracode.com/resources/case-studies], handling this new url
-		Added new URL: #30 https://www.veracode.com/resources/case-studies
+	Accessing href [https://www.google.com/intl/en/retail/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/retail/], handling this new url
+		Added new URL: #31 https://www.google.com/intl/en/retail/
 
-	Accessing href [tel://1-877-837-2203] from [http://www.veracode.com/], bringing us to [tel://1-877-837-2203], handling this new url
-		Invalid URL [tel://1-877-837-2203], accessing failed with [No connection adapters were found for 'tel://1-877-837-2203'].
-	Accessing href [https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html], handling this new url
-		Added new URL: #31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
+	Accessing href [https://adwords.google.com/intl/en_us/home/how-it-works/video-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_va_1!o2] from [https://www.google.com/intl/en/ads/], bringing us to [https://adwords.google.com/intl/en_us/home/how-it-works/video-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_va_1!o2], handling this new url
+		The url can be furthur formatted to https://adwords.google.com/home/how-it-works/video-ads/
+		Added new URL: #32 https://adwords.google.com/home/how-it-works/video-ads/
 
-	Accessing href [/solutions] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/solutions], handling this new url
-		Added new URL: #32 http://www.veracode.com/solutions
+	Accessing href [https://adwords.google.com/um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-et-awhp] from [https://www.google.com/intl/en/ads/], bringing us to [https://adwords.google.com/um/StartNow?hl=en&amp;sourceid=awo&amp;subid=ww-ww-et-awhp], handling this new url
+		The url can be furthur formatted to https://support.google.com/adwords/answer/1704376?hl=en#browsersupport
+		Added new URL: #33 https://support.google.com/adwords/answer/1704376?hl=en#browsersupport
 
-	Accessing href [https://www.linkedin.com/company/veracode] from [http://www.veracode.com/], bringing us to [https://www.linkedin.com/company/veracode], handling this new url
-		Added new URL: #33 https://www.linkedin.com/company/veracode
+	Accessing href [https://www.google.com/images/branding/product/ico/googleg_alldp.ico] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/images/branding/product/ico/googleg_alldp.ico], handling this new url
+		Added new URL: #34 https://www.google.com/images/branding/product/ico/googleg_alldp.ico
 
-	Accessing href [/resources] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources], handling this new url
-		Added new URL: #34 http://www.veracode.com/resources
+	Accessing href [https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx], handling this new url
+		Added new URL: #35 https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx
 
-	Accessing href [/sites/all/themes/veracode/css/ie8.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/themes/veracode/css/ie8.css], handling this new url
-		Added new URL: #35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
+	Accessing href [?utm_medium=et&amp;utm_source=adsol] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/ads/?utm_medium=et&amp;utm_source=adsol], handling this new url
+		Added new URL: #36 https://www.google.com/intl/en/ads/?utm_medium=et&amp;utm_source=adsol
 
-	Accessing href [/node/23116] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/node/23116], handling this new url
-		Added new URL: #36 http://www.veracode.com/node/23116
+	Accessing href [https://plus.google.com/+GoogleAds/posts] from [https://www.google.com/intl/en/ads/], bringing us to [https://plus.google.com/+GoogleAds/posts], handling this new url
+		Added new URL: #37 https://plus.google.com/+GoogleAds/posts
 
-	Accessing href [//www.veracode.com/file/8961] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/file/8961], handling this new url
-		Added new URL: #37 http://www.veracode.com/file/8961
+	Accessing href [//www.google.com/intl/en/policies/privacy/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/policies/privacy/], handling this new url
+	Accessing href [https://adwords.google.com/intl/en_us/home/how-it-works/app-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_apps_1!o2] from [https://www.google.com/intl/en/ads/], bringing us to [https://adwords.google.com/intl/en_us/home/how-it-works/app-ads/?sourceid=awo&amp;subid=ww-ww-et-g-aw-a-adsol_apps_1!o2], handling this new url
+		The url can be furthur formatted to https://adwords.google.com/home/how-it-works/app-ads/
+		Added new URL: #38 https://adwords.google.com/home/how-it-works/app-ads/
 
-	Accessing href [https://info.veracode.com/state-of-software-security-report.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/state-of-software-security-report.html], handling this new url
-		Added new URL: #38 https://info.veracode.com/state-of-software-security-report.html
+	Accessing href [//fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en], handling this new url
+		Added new URL: #39 https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en
 
-	Accessing href [//cloud.typography.com/7267672/805964/css/fonts.css] from [http://www.veracode.com/], bringing us to [http://cloud.typography.com/7267672/805964/css/fonts.css], handling this new url
-		Invalid URL [http://cloud.typography.com/7267672/805964/css/fonts.css], accessing failed with [403 Client Error: Forbidden for url: http://cloud.typography.com/7267672/805964/css/fonts.css].
-	Accessing href [//www.veracode.com/site-map] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/site-map], handling this new url
-		Added new URL: #39 http://www.veracode.com/site-map
+	Accessing href [//fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en], handling this new url
+		Added new URL: #40 https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en
 
-	Accessing href [//www.veracode.com/] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/], handling this new url
-	Accessing href [/products/runtime-protection-rasp] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/runtime-protection-rasp], handling this new url
-		Added new URL: #40 http://www.veracode.com/products/runtime-protection-rasp
+	Accessing href [https://www.google.com/intl/en/policies/privacy/?fg=1] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/policies/privacy/?fg=1], handling this new url
+		Added new URL: #41 https://www.google.com/intl/en/policies/privacy/?fg=1
 
-	Accessing href [/products/web-application-scanning] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/products/web-application-scanning], handling this new url
-		Added new URL: #41 http://www.veracode.com/products/web-application-scanning
+	Accessing href [https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol], handling this new url
+		Added new URL: #42 https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol
 
-	Accessing href [/security/secure-development-lifecycle] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/security/secure-development-lifecycle], handling this new url
-		Added new URL: #42 http://www.veracode.com/security/secure-development-lifecycle
+	Accessing href [https://developers.google.com/adwords/scripts/?hl=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://developers.google.com/adwords/scripts/?hl=en], handling this new url
+		Added new URL: #43 https://developers.google.com/adwords/scripts/?hl=en
 
-	Accessing href [//www.veracode.com/file/8976] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/file/8976], handling this new url
-		Added new URL: #43 http://www.veracode.com/file/8976
+	Accessing href [https://developers.google.com/adwords/api/?hl=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://developers.google.com/adwords/api/?hl=en], handling this new url
+		The url can be furthur formatted to https://developers.google.com/adwords/api/docs/guides/start?hl=en
+		Added new URL: #44 https://developers.google.com/adwords/api/docs/guides/start?hl=en
 
-	Accessing href [https://www.veracode.com/about] from [http://www.veracode.com/], bringing us to [https://www.veracode.com/about], handling this new url
-		Added new URL: #44 https://www.veracode.com/about
+	Accessing href [https://support.google.com/adwords/?hl=en#topic=3119071] from [https://www.google.com/intl/en/ads/], bringing us to [https://support.google.com/adwords/?hl=en#topic=3119071], handling this new url
+		Added new URL: #45 https://support.google.com/adwords/?hl=en#topic=3119071
 
-	Accessing href [/about/certifications] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about/certifications], handling this new url
-	Accessing href [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css] from [http://www.veracode.com/], bringing us to [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css], handling this new url
-		Added new URL: #45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
+	Accessing href [https://developers.google.com/?hl=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://developers.google.com/?hl=en], handling this new url
+		Added new URL: #46 https://developers.google.com/?hl=en
 
-	Accessing href [/sites/all/themes/veracode/css/ie9.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/themes/veracode/css/ie9.css], handling this new url
-		Added new URL: #46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
+	Accessing href [../ads/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/ads/], handling this new url
+	Accessing href [/intl/en/retail/solutions/shopping-campaigns/] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/retail/solutions/shopping-campaigns/], handling this new url
+		Added new URL: #47 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/
 
-	Accessing href [/resources/videos] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/resources/videos], handling this new url
-		Added new URL: #47 http://www.veracode.com/resources/videos
+	Accessing href [https://support.google.com/adwords/answer/6146252?hl=en] from [https://www.google.com/intl/en/ads/], bringing us to [https://support.google.com/adwords/answer/6146252?hl=en], handling this new url
+		Added new URL: #48 https://support.google.com/adwords/answer/6146252?hl=en
 
-	Accessing href [/about-us] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/about-us], handling this new url
-		The url can be furthur formatted to http://www.veracode.com/about
-		Added new URL: #48 http://www.veracode.com/about
+	Accessing href [https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol], handling this new url
+		Added new URL: #49 https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol
 
-	Accessing href [https://info.veracode.com/webinar-SANS-why-you-need-application-security.html] from [http://www.veracode.com/], bringing us to [https://info.veracode.com/webinar-SANS-why-you-need-application-security.html], handling this new url
-		Added new URL: #49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
-
-	Accessing href [/sites/all/libraries/bxslider/jquery.bxslider.css] from [http://www.veracode.com/], bringing us to [http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css], handling this new url
-		Added new URL: #50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css
+	Accessing href [https://www.google.com/intl/en/analytics/?utm_source=Internal&amp;utm_medium=adsol] from [https://www.google.com/intl/en/ads/], bringing us to [https://www.google.com/intl/en/analytics/?utm_source=Internal&amp;utm_medium=adsol], handling this new url
+		The url can be furthur formatted to https://www.google.com/analytics/?utm_source=Internal&amp;utm_medium=adsol
+		Added new URL: #50 https://www.google.com/analytics/?utm_source=Internal&amp;utm_medium=adsol
 
 
 Printing all valid URLs of up to 50 URLs
-	1 http://www.veracode.com/
-	2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
-	3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
-	4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
-	5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
-	6 https://info.veracode.com/find-a-partner.html
-	7 http://www.veracode.com/solutions/by-company/midsize-enterprise
-	8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
-	9 http://www.veracode.com/services/program-management
-	10 http://www.veracode.com/about/careers
-	11 http://www.veracode.com/security
-	12 https://info.veracode.com/request-quote.html
-	13 http://www.veracode.com/products/binary-static-analysis-sast
-	14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
-	15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
-	16 http://www.veracode.com/about/leadership/management
-	17 http://www.veracode.com/solutions/security-professionals
-	18 http://www.veracode.com/resources/faqs
-	19 http://www.veracode.com/solutions/by-company/independent-software-vendor
-	20 http://www.veracode.com/about/partners
-	21 https://info.veracode.com/apply-to-become-a-partner.html
-	22 http://www.veracode.com/products/developer-training
-	23 http://www.veracode.com/solutions/executives
-	24 https://www.ca.com/us/company/acquisitions/veracode.html
-	25 https://www.facebook.com/VeracodeInc
-	26 http://www.veracode.com/resources/webinars
-	27 http://www.veracode.com/products/software-composition-analysis
-	28 http://www.veracode.com/services/penetration-testing
-	29 http://www.veracode.com/about/certifications
-	30 https://www.veracode.com/resources/case-studies
-	31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
-	32 http://www.veracode.com/solutions
-	33 https://www.linkedin.com/company/veracode
-	34 http://www.veracode.com/resources
-	35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
-	36 http://www.veracode.com/node/23116
-	37 http://www.veracode.com/file/8961
-	38 https://info.veracode.com/state-of-software-security-report.html
-	39 http://www.veracode.com/site-map
-	40 http://www.veracode.com/products/runtime-protection-rasp
-	41 http://www.veracode.com/products/web-application-scanning
-	42 http://www.veracode.com/security/secure-development-lifecycle
-	43 http://www.veracode.com/file/8976
-	44 https://www.veracode.com/about
-	45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
-	46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
-	47 http://www.veracode.com/resources/videos
-	48 http://www.veracode.com/about
-	49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
-	50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css
+	1 https://www.google.com/
+	2 https://www.google.com/intl/en/ads/
+	3 https://www.google.com/webhp?site=
+	4 https://translate.google.com/
+	5 https://plus.google.com/116899029375914044550
+	6 https://play.google.com/store?hl=en&tab=w8
+	7 https://www.google.com/intl/en/policies/privacy/
+	8 https://www.google.com/preferences?hl=en
+	9 http://www.google.com/history/optout?hl=en&nzb=1
+	10 https://www.google.com/images/branding/product/ico/googleg_lodp.ico
+	11 https://www.google.com/maps/@?hl=en&dg=dbrw&newdg=1
+	12 https://www.google.com/intl/en/about/
+	13 https://www.google.com/services/
+	14 https://www.google.com/imghp?hl=en&tab=wi
+	15 https://www.google.com/intl/en/about/products/
+	16 https://www.google.com/intl/en/policies/terms/
+	17 https://www.youtube.com/?tab=w1
+	18 https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1
+	19 https://www.google.com/advanced_search?hl=en&amp;authuser=0
+	20 https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/
+	21 https://news.google.com/nwshp?hl=en&tab=wn
+	22 https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/?tab%3Dwo&followup=https://drive.google.com/?tab%3Dwo&emr=1
+	23 https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en
+	24 https://support.google.com/adwords/answer/2476688?hl=en
+	25 https://www.google.com/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none
+	26 https://www.google.com/ads/
+	27 https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
+	28 https://adwords.googleblog.com/
+	29 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
+	30 https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2
+	31 https://www.google.com/intl/en/retail/
+	32 https://adwords.google.com/home/how-it-works/video-ads/
+	33 https://support.google.com/adwords/answer/1704376?hl=en#browsersupport
+	34 https://www.google.com/images/branding/product/ico/googleg_alldp.ico
+	35 https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx
+	36 https://www.google.com/intl/en/ads/?utm_medium=et&amp;utm_source=adsol
+	37 https://plus.google.com/+GoogleAds/posts
+	38 https://adwords.google.com/home/how-it-works/app-ads/
+	39 https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en
+	40 https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en
+	41 https://www.google.com/intl/en/policies/privacy/?fg=1
+	42 https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol
+	43 https://developers.google.com/adwords/scripts/?hl=en
+	44 https://developers.google.com/adwords/api/docs/guides/start?hl=en
+	45 https://support.google.com/adwords/?hl=en#topic=3119071
+	46 https://developers.google.com/?hl=en
+	47 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/
+	48 https://support.google.com/adwords/answer/6146252?hl=en
+	49 https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol
+	50 https://www.google.com/analytics/?utm_source=Internal&amp;utm_medium=adsol
