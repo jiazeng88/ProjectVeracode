@@ -1,58 +1,57 @@
 # specify URL with -u
 ## output of command "python urlTaskMgr.py -u https://veracode.com":
-Starting from accessing URL [https://veracode.com], find a total of 50 valid URLs or until none is left to find.
+Starting from accessing URL [https://google.com], find a total of 50 valid URLs or until none is left to find.
 
-		Invalid URL [tel://1-877-837-2203], accessing failed with [No connection adapters were found for 'tel://1-877-837-2203'].
-		Invalid URL [http://cloud.typography.com/7267672/805964/css/fonts.css], accessing failed with [403 Client Error: Forbidden for url: http://cloud.typography.com/7267672/805964/css/fonts.css].
+		Invalid URL [tel:1-800-881-0357], accessing failed with [No connection adapters were found for 'tel:1-800-881-0357'].
 
 Printing all valid URLs of up to 50 URLs
-	1 http://www.veracode.com/
-	2 http://www.veracode.com/sites/default/files/css/css_y6G2-fLqoDcuB7VpTpyaPAypOfxKSb3qVKO7I9EdEug.css
-	3 https://fonts.googleapis.com/css?family=Open+Sans:300,italic,400,600%7CMontserrat:400,700%7CTitillium+Web:300,300i
-	4 http://www.veracode.com/sites/default/files/css/css_Ntnxjagkd2lfBYE_eW4PZz3k14ZbJ6p10tu9Cz_MnfI.css
-	5 http://www.veracode.com/sites/default/files/css/css_2nfB16DNX2LZn0ypbWnuUdxIDxN2nBGm4CiH_xiE6ZA.css
-	6 https://info.veracode.com/find-a-partner.html
-	7 http://www.veracode.com/solutions/by-company/midsize-enterprise
-	8 https://info.veracode.com/web-contact-us.html?utm_source=Click2Chat&amp;utm_medium=Website
-	9 http://www.veracode.com/services/program-management
-	10 http://www.veracode.com/about/careers
-	11 http://www.veracode.com/security
-	12 https://info.veracode.com/request-quote.html
-	13 http://www.veracode.com/products/binary-static-analysis-sast
-	14 http://www.veracode.com/sites/default/files/css/css_eey3-FOGkaD4fBZQiFvqQS6sAiz0f3rH9JzZdVVX5l8.css
-	15 http://www.veracode.com/sites/default/files/Resources/Whitepapers/what-is-application-security-veracode.pdf
-	16 http://www.veracode.com/about/leadership/management
-	17 http://www.veracode.com/solutions/security-professionals
-	18 http://www.veracode.com/resources/faqs
-	19 http://www.veracode.com/solutions/by-company/independent-software-vendor
-	20 http://www.veracode.com/about/partners
-	21 https://info.veracode.com/apply-to-become-a-partner.html
-	22 http://www.veracode.com/products/developer-training
-	23 http://www.veracode.com/solutions/executives
-	24 https://www.ca.com/us/company/acquisitions/veracode.html
-	25 https://www.facebook.com/VeracodeInc
-	26 http://www.veracode.com/resources/webinars
-	27 http://www.veracode.com/products/software-composition-analysis
-	28 http://www.veracode.com/services/penetration-testing
-	29 http://www.veracode.com/about/certifications
-	30 https://www.veracode.com/resources/case-studies
-	31 https://info.veracode.com/how-IT-professionals-are-approaching-appsec-today.html
-	32 http://www.veracode.com/solutions
-	33 https://www.linkedin.com/company/veracode
-	34 http://www.veracode.com/resources
-	35 http://www.veracode.com/sites/all/themes/veracode/css/ie8.css
-	36 http://www.veracode.com/node/23116
-	37 http://www.veracode.com/file/8961
-	38 https://info.veracode.com/state-of-software-security-report.html
-	39 http://www.veracode.com/site-map
-	40 http://www.veracode.com/products/runtime-protection-rasp
-	41 http://www.veracode.com/products/web-application-scanning
-	42 http://www.veracode.com/security/secure-development-lifecycle
-	43 http://www.veracode.com/file/8976
-	44 https://www.veracode.com/about
-	45 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css
-	46 http://www.veracode.com/sites/all/themes/veracode/css/ie9.css
-	47 http://www.veracode.com/resources/videos
-	48 http://www.veracode.com/about
-	49 https://info.veracode.com/webinar-SANS-why-you-need-application-security.html
-	50 http://www.veracode.com/sites/all/libraries/bxslider/jquery.bxslider.css
+	1 https://www.google.com/
+	2 https://www.google.com/intl/en/ads/
+	3 https://plus.google.com/116899029375914044550
+	4 https://translate.google.com/
+	5 https://play.google.com/store?hl=en&tab=w8
+	6 https://www.google.com/intl/en/policies/privacy/
+	7 https://www.google.com/preferences?hl=en
+	8 http://www.google.com/history/optout?hl=en&nzb=1
+	9 https://www.google.com/images/branding/product/ico/googleg_lodp.ico
+	10 https://www.google.com/maps/@?hl=en&dg=dbrw&newdg=1
+	11 https://www.google.com/intl/en/about/
+	12 https://www.google.com/services/
+	13 https://www.google.com/imghp?hl=en&tab=wi
+	14 https://www.google.com/intl/en/about/products/
+	15 https://www.google.com/intl/en/policies/terms/
+	16 https://www.youtube.com/?tab=w1
+	17 https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1
+	18 https://www.google.com/advanced_search?hl=en&amp;authuser=0
+	19 https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/
+	20 https://news.google.com/nwshp?hl=en&tab=wn
+	21 https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/?tab%3Dwo&followup=https://drive.google.com/?tab%3Dwo&emr=1
+	22 https://www.google.com/webhp?site=
+	23 https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en
+	24 https://support.google.com/adwords/answer/2476688?hl=en
+	25 https://www.google.com/intl/en/ads/publisher/?sourceid=awo&amp;subid=ww-ww-et-adsol_publ_v2#?modal_active=none
+	26 https://www.google.com/ads/
+	27 https://www.youtube.com/channel/UCgl9rHdm9KojNRWs56QI_hg
+	28 https://adwords.googleblog.com/
+	29 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/?utm_source=Internal&amp;utm_medium=InPage&amp;utm_campaign=shoppingcampaigns
+	30 https://www.google.com/ads/publisher/?sourceid=awo&amp;subid=us-en-et-adsexp_publ_v2
+	31 https://www.google.com/intl/en/retail/
+	32 https://adwords.google.com/home/how-it-works/video-ads/
+	33 https://support.google.com/adwords/answer/1704376?hl=en#browsersupport
+	34 https://www.google.com/images/branding/product/ico/googleg_alldp.ico
+	35 https://www.google.com/intl/en/adwords/express/?sourceid=awo&amp;subid=ww-ww-et-adsol_awx
+	36 https://www.google.com/intl/en/ads/?utm_medium=et&amp;utm_source=adsol
+	37 https://plus.google.com/+GoogleAds/posts
+	38 https://adwords.google.com/home/how-it-works/app-ads/
+	39 https://fonts.googleapis.com/css?family=Product+Sans:400&amp;lang=en
+	40 https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en
+	41 https://www.google.com/intl/en/policies/privacy/?fg=1
+	42 https://www.google.com/intl/en/services/?sourceid=bizsol&amp;subid=ww-ww-et-adsol_bizsol
+	43 https://developers.google.com/adwords/scripts/?hl=en
+	44 https://developers.google.com/adwords/api/docs/guides/start?hl=en
+	45 https://support.google.com/adwords/?hl=en#topic=3119071
+	46 https://developers.google.com/?hl=en
+	47 https://www.google.com/intl/en/retail/solutions/shopping-campaigns/
+	48 https://support.google.com/adwords/answer/6146252?hl=en
+	49 https://www.google.com/intl/en/adwords/express/?utm_source=awx&amp;utm_medium=et&amp;utm_campaign=ww-ww-et-awx_bizsol
+	50 https://www.google.com/analytics/?utm_source=Internal&amp;utm_medium=adsol
